@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: url('../images/pattern-background-desktop.svg') no-repeat 0 -100px;
+  background-color: #e4ebf7;
+}
+
+.container {
+  width: 30%;
+  margin: 0 auto;
+}
+
+button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px 0;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p,
+.block {
+  font-size: 18px;
+  color: #797979;
+}
+
+.block {
+  display: block;
+}
+/* Order Summary */
+#order-summary {
+  background: #fbfbff;
+  height: 100%;
+  margin-top: 15%;
+  border-radius: 15px;
+  /* box-shadow: 1px 1px 5px #000; */
+}
+
+.head img {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.main {
+  width: 80%;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.main p {
+  margin: 10px 0;
+}
+
+.main .annual-plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5% 0;
+  padding: 10px;
+  background-color: #e7ebf1;
+  border-radius: 15px;
+}
+
+.annual-plan p {
+  color: #000;
+  margin-left: 10px;
+}
+
+.annual-plan a {
+  margin-left: auto;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #352dd7;
+}
+
+.bottom .payment {
+  background: #352dd7;
+  color: #fff;
+}
+
+.bottom .cancel {
+  background: #fbfbff;
+  color: #797979;
+  margin-bottom: 10%;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    width: 90%;
+  }
+}
